@@ -1,0 +1,24 @@
+.bannerpage > p{
+    color: white;
+    font-size: 25px;
+}
+
+.bannerpage{
+    width: 50%;
+    margin-left: 60px;
+}
+
+.bannerpage > button{
+    width: 200px;
+    height: 50px;
+    color: white;
+    background-color: #007367;
+    font-size: 20px;
+} 
+
+.text{
+    font-size: 100px;
+    color: white;
+    font-weight: bold;
+    
+}

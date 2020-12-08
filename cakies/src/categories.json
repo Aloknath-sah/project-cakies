@@ -1,0 +1,14 @@
+[
+    {
+        "id": 1,
+        "category": "beverages"
+    },
+    {
+        "id": 2,
+        "category": "snacks"
+    },
+    {
+        "id": 3,
+        "category": "cakes"
+    }
+]

@@ -1,0 +1,130 @@
+[
+    {
+        "id":1,
+        "img":"https://assets.winni.in/c_limit,dpr_1,fl_progressive,q_80,w_400/33693_chocolate-cream-gateaux-cake.webp",
+        "name":"Chocolate Cake",
+        "unit_price":"430",
+        "category_id":3,
+        "category": "cakes",
+        "contain_egg":"Eggless Cake",
+        "cake_flav":"chocolate"
+    },
+    {
+        "id":2,
+        "img":"https://assets.winni.in/c_limit,dpr_1,fl_progressive,q_80,w_400/33692_choco-valvette-cake.webp",
+        "name":"Choco Valvett Cake",
+        "unit_price":"460",
+        "category_id":3,
+        "category": "cakes",
+        "contain_egg":"Eggless Cake",
+        "cake_flav":"chocolate"
+    },
+    {
+        "id":3,
+        "img":"https://assets.winni.in/c_limit,dpr_1,fl_progressive,q_80,w_400/31438_delicious-chocolate-cake.webp",
+        "name":"Delicious Chocolate Cake",
+        "unit_price":"470",
+        "category_id":3,
+        "category": "cakes",
+        "contain_egg":"Eggless Cake",
+        "cake_flav":"chocolate"
+    },
+    {
+        "id":4,
+        "img":"https://assets.winni.in/c_limit,dpr_1,fl_progressive,q_80,w_400/31204_chocolate-truffle.webp",
+        "name":"Chocolate Tuffle",
+        "unit_price":"455",
+        "category_id":3,
+        "category": "cakes",
+        "contain_egg":"Eggless Cake",
+        "cake_flav":"chocolate"
+    },
+    {
+        "id":5,
+        "img":"https://assets.winni.in/c_limit,dpr_1,fl_progressive,q_80,w_400/38907_black-forest-cake.webp",
+        "name":"Black Forest Cake",
+        "unit_price":"465",
+        "category_id":3,
+        "category": "cakes",
+        "contain_egg":"contains egg",
+        "cake_flav":"chocolate"
+    },
+    {
+        "id":6,
+        "img":"https://i.pinimg.com/originals/3f/fa/7d/3ffa7de780101ff9bea4771294a2f374.jpg",
+        "name":"veg puff",
+        "unit_price":"50",
+        "category_id":2,
+        "category": "snacks"
+    },
+    {
+        "id":7,
+        "img":"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/milkshake-b0d6105.jpg",
+        "name":"milk shakes",
+        "unit_price":"40",
+        "category_id":1,
+        "category": "beverages"
+    },
+    {
+        "id":8,
+        "img":"https://images.immediate.co.uk/production/volatile/sites/30/2020/08/hub-image-coffee-e732616.jpg?quality=90&resize=504,458",
+        "name":"coffee",
+        "unit_price":"50",
+        "category_id":1,
+        "category": "beverages"
+    },
+    {
+        "id":9,
+        "img":"https://assets.winni.in/c_limit,dpr_1,fl_progressive,q_80,w_400/38907_black-forest-cake.webp",
+        "name":"Black Forest Cake",
+        "unit_price":"465",
+        "category_id":3,
+        "category": "cakes",
+        "contain_egg":"contains egg",
+        "cake_flav":"chocolate"
+    },
+    {
+        "id":10,
+        "img":"https://assets.winni.in/c_limit,dpr_1,fl_progressive,q_80,w_400/38907_black-forest-cake.webp",
+        "name":"Black Forest Cake",
+        "unit_price":"465",
+        "category_id":3,
+        "category": "cakes",
+        "contain_egg":"Eggless Cake",
+        "cake_flav":"chocolate"
+    },
+    {
+        "id":11,
+        "img":"https://assets.winni.in/c_limit,dpr_1,fl_progressive,q_80,w_400/38907_black-forest-cake.webp",
+        "name":"Black Forest Cake",
+        "unit_price":"465",
+        "category_id":3,
+        "category": "cakes",
+        "contain_egg":"contains egg",
+        "cake_flav":"chocolate"
+    },
+    {
+        "id":12,
+        "img":"https://static.toiimg.com/thumb/61050397.cms?imgsize=246859&width=800&height=800",
+        "name":"Samosa",
+        "unit_price":"50",
+        "category_id":2,
+        "category": "snacks"
+    },
+    {
+        "id":13,
+        "img":"https://static.toiimg.com/thumb/57289815.cms?imgsize=643382&width=800&height=800",
+        "unit_price":"50",
+        "name":"Kachori",
+        "category_id":2,
+        "category": "snacks"
+    },
+    {
+        "id":14,
+        "img":"https://www.whiskaffair.com/wp-content/uploads/2020/03/Lemon-Tea-4.jpg",
+        "name":"tea",
+        "unit_price":"50",
+        "category_id":1,
+        "category": "beverages"
+    }
+]
