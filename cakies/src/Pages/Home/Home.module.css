@@ -22,3 +22,28 @@
     font-weight: bold;
     
 }
+
+.add{
+        margin:auto;
+        padding-top:15px;
+        text-align:center;
+        color:white;
+        width:150px;
+        background:#007367;
+        height:40px;
+        font-size:20px;
+}
+
+.unit_price{
+    text-align:center;
+}
+
+.name{
+    text-align:center
+}
+
+.sort{
+    text-align: right;
+    padding: 20px;
+    margin-right: 80px;
+}

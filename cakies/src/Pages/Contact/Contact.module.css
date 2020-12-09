@@ -1,0 +1,43 @@
+.form{
+    width: 500px;
+    height: 500px;
+    margin: auto;
+}
+
+.form > div > input{
+    width: 100%;
+    height: 25px;
+    border-radius: 5px;
+    border: 1px solid rgb(38, 134, 18);
+}
+
+.form > div > textarea {
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid rgb(38, 134, 18);
+}
+
+.form > div >  button {
+    width: 100%;
+    background-color: rgb(38, 134, 18);
+    color: white;
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+.form_group{
+    display:flex;
+}
+
+.form_group > * {
+    padding: 10px;
+    margin: 10px;
+}
+
+.label {
+    width: 200px;
+    text-align: left;
+}
+
+
+

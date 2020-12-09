@@ -12,12 +12,6 @@ const ProductsWrapper = styled.div`
     gap: 25px;
 `;
 
-/*  1.  Using Context API we get the "getAllProducts" and "selectedCategory" functions from the DataContextProvider. and these functions basically returns products
-    and selectedCategory values of the state in DataContextProvider
-
-    2.  We basically render/list all the products of selected category here
-*/
-
 export class Product extends Component {
     render() {
         const { getAllProducts, getSelectedCategory } = this.context;
