@@ -42,6 +42,8 @@ export class Login extends Component {
                 type="email" 
                 placeholder="email"
                 onChange={this.handleChange} />
+                    <small>email: eve.holt@reqres.in</small>
+                    <small>password: cityslicka</small>
                 <br/>
 
                 <input
