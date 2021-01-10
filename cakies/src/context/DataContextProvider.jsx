@@ -16,7 +16,8 @@ export default class DataContextProvider extends Component {
             selectedCategory:"",
             token:"",
             isAuth:false,
-            isLoading:false
+            isLoading:false,
+            count:0
         }
         this.authenticateUser = this.authenticateUser.bind(this)
     }
@@ -53,6 +54,9 @@ export default class DataContextProvider extends Component {
 
     // function which takes the product id as argument and update the cart state
     addToCart = (id) => {
+        this.setState({
+            count: this.state.count+1
+        })
         const { products, cart } = this.state;
         const productToAdd = products.find((prod) => prod.id === id);
 
@@ -124,7 +128,7 @@ export default class DataContextProvider extends Component {
     render() {
         const {isLoading, 
             token,
-            isAuth} = this.state
+            isAuth, count} = this.state
         const {
             authenticateUser,
             setCategory,
@@ -142,6 +146,7 @@ export default class DataContextProvider extends Component {
             isLoading, 
             token,
             isAuth,
+            count,
             setCategory,
             addToCart,
             getTotal,

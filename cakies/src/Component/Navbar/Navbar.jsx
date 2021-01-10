@@ -2,6 +2,7 @@ import React from 'react';
 import {NavLink, Link} from 'react-router-dom'
 import styled from 'styled-components'
 import ShoppingCartIcon from '@material-ui/icons/ShoppingCart';
+import { DataContext } from '../../context/DataContextProvider';
 
 const Navbarcenter = styled.div`
     
@@ -36,6 +37,9 @@ const NavbarLeft = styled.div`
 const NavbarRight = styled.div`
     text-align: right;
     padding: 30px;
+    &.navright > * {
+        text-decoration: none
+    }
 `
 
 const links=[
@@ -62,34 +66,42 @@ const links=[
     }
 ]
 
-const Navbar = () => {
-    return (
-        <NavbarWrapper className="wrapper">
-        <NavbarLeft>
-            <Link to="/">
-                <h1>Cakies</h1>
-            </Link>
-        </NavbarLeft>
-        <Navbarcenter>
-        {
-            links.map((link)=>
-            (
-                <NavLink 
-                key={link.to} 
-                to={link.to}
-                style={{padding: 20}} >
-                    {link.title}
-                </NavLink>
-            ))
-        }
-        </Navbarcenter>
-        <NavbarRight>
-            <Link to="/cart" >
-            <ShoppingCartIcon/>
-            </Link>
-        </NavbarRight>
-        </NavbarWrapper>
-    );
+class Navbar extends React.Component {
+    
+    render(){
+        const {count} = this.context
+        return (
+            <NavbarWrapper className="wrapper">
+            <NavbarLeft>
+                <Link to="/">
+                    <h1>Cakies</h1>
+                </Link>
+            </NavbarLeft>
+            <Navbarcenter>
+            {
+                links.map((link)=>
+                (
+                    <NavLink 
+                    key={link.to} 
+                    to={link.to}
+                    style={{padding: 20}} >
+                        {link.title}
+                    </NavLink>
+                ))
+            }
+            </Navbarcenter>
+            <NavbarRight className="navright" >
+                <Link to="/cart" >
+                
+                <ShoppingCartIcon/>
+                {count}
+                </Link>
+            </NavbarRight>
+            </NavbarWrapper>
+        );
+    }
+    
 }
 
+Navbar.contextType = DataContext
 export {Navbar}

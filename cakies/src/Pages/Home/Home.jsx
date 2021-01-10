@@ -65,19 +65,17 @@ export default class Home extends React.Component {
                             </select>
                         </div>
                         <Card className="card">
-                            
-                            {
+                        {
                                 data.sort((a,b)=> order === "asc"? a.unit_price - b.unit_price: b.unit_price -a.unit_price)
                                 .map((item)=> (
                                     <div style={{height:"500px"}}  key={item.id} >
                                         <img src={item.img} alt="cardImage" width="250px" height="250px" />
                                         <h3 className={styles.name}>{item.name} </h3>
                                         <h4 className={styles.unit_price}>{"Rs. "} {item.unit_price}</h4>
-    
-                                        <div className={styles.add} >Add to cart</div>
+                                        <div className={styles.add}>Add to cart</div>
                                     </div>
                                 ))
-                            }
+                        }
                         </Card>
                     </div>
                 </Best>
